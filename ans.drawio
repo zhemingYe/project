@@ -128,7 +128,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="DhSsVPTjkXT1rYPjCrlO" name="初步類別圖">
-        <mxGraphModel dx="810" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1130" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -136,15 +136,60 @@
         </mxGraphModel>
     </diagram>
     <diagram id="le8JIax5LQ8WGu1coI1Y" name="合約圖">
-        <mxGraphModel dx="810" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="779" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-1" value="合約1 : 預約停車" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="170" width="340" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-2" value="操作 : 客戶透過APP預約停車" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="obB1zzoYvzJ1vMG0y5Sv-1">
+                    <mxGeometry y="26" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-3" value="交互參照: 預約停車案例" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="obB1zzoYvzJ1vMG0y5Sv-1">
+                    <mxGeometry y="52" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-4" value="前置條件: 客戶在app上須付費成為會員。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="obB1zzoYvzJ1vMG0y5Sv-1">
+                    <mxGeometry y="78" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-5" value="後置條件:  用戶可預約停車" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="obB1zzoYvzJ1vMG0y5Sv-1">
+                    <mxGeometry y="104" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-6" value="合約2 : 結帳" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="320" width="340" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-7" value="操作 : 客戶離開時透過APP結帳" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="obB1zzoYvzJ1vMG0y5Sv-6">
+                    <mxGeometry y="26" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-8" value="交互參照: 結帳回傳資訊" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="obB1zzoYvzJ1vMG0y5Sv-6">
+                    <mxGeometry y="52" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-9" value="前置條件: 用戶透過APP依照正確流程預約停車" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="obB1zzoYvzJ1vMG0y5Sv-6">
+                    <mxGeometry y="78" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-10" value="後置條件: 系統發送完成結帳通知" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="obB1zzoYvzJ1vMG0y5Sv-6">
+                    <mxGeometry y="104" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-11" value="合約3 : 回傳資訊" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="221" y="464" width="439" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-12" value="操作 : 客戶離開後APP將資訊傳至管理方" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="obB1zzoYvzJ1vMG0y5Sv-11">
+                    <mxGeometry y="26" width="439" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-13" value="交互參照: 結帳回傳資訊" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="obB1zzoYvzJ1vMG0y5Sv-11">
+                    <mxGeometry y="52" width="439" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-14" value="前置條件: 用戶透過APP依照正確流程預約停車" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="obB1zzoYvzJ1vMG0y5Sv-11">
+                    <mxGeometry y="78" width="439" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="obB1zzoYvzJ1vMG0y5Sv-15" value="後置條件: 系統生成停車場使用統計報表，包括停車位利用率、收入統計等資訊。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="obB1zzoYvzJ1vMG0y5Sv-11">
+                    <mxGeometry y="104" width="439" height="26" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="6WhTeAm0374mIFy7fDfA" name="類別圖">
-        <mxGraphModel dx="810" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1130" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
